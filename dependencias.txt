@@ -6,3 +6,10 @@ npm install @react-navigation/native-stack
 expo install @react-native-community/datetimepicker
 npm install uuid
 npm install --save-dev @types/uuid
+
+para rodar:
+npm install
+npm install expo
+npx expo start
+    npx expo start --android
+a
