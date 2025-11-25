@@ -8,5 +8,6 @@
       "@services/*": ["services/*"],
       "@models/*": ["models/*"]
     }
-  }
+  },
+  "include": ["src/**/*", "App.tsx"]
 }
