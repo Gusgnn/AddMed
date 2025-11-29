@@ -25,3 +25,10 @@ npm install @react-navigation/native@^6 \
 npm install react-native-screens react-native-safe-area-context
 
 npx expo start -c
+
+
+
+expo install @react-navigation/native
+expo install react-native-screens react-native-safe-area-context
+expo install @react-navigation/native-stack
+expo start -c
