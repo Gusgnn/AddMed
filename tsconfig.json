@@ -1,13 +1,13 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "baseUrl": "./src",
-    "paths": {
-      "@screens/*": ["screens/*"],
-      "@components/*": ["components/*"],
-      "@services/*": ["services/*"],
-      "@models/*": ["models/*"]
-    }
+    "strict": true,
+    "jsx": "react-native",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "noEmit": true
   },
-  "include": ["src/**/*", "App.tsx"]
+  "include": ["**/*.ts", "**/*.tsx"]
 }
